@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 간단한 스타일 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        button {
+            padding: 10px 16px;
+            font-size: 16px;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #357abd;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>환영합니다 👋</h1>
+        <p>이것은 index.html 샘플 페이지입니다</p>
+    </header>
+
+    <main>
+        <h2>소개</h2>
+        <p>
+            이 페이지는 HTML, CSS, JavaScript가 한 파일에 들어간
+            가장 기본적인 웹페이지 예제입니다.
+        </p>
+
+        <button onclick="sayHello()">버튼 클릭</button>
+    </main>
+
+    <footer>
+        © 2026 My Website
+    </footer>
+
+    <!-- 간단한 스크립트 -->
+    <script>
+        function sayHello() {
+            alert("안녕하세요! 버튼이 정상적으로 동작합니다 😊");
+        }
+    </script>
+
+</body>
+</html>
